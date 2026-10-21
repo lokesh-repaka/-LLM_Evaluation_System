@@ -1,0 +1,23 @@
+# Environments & Secrets
+.venv/
+venv/
+ENV/
+.env
+*.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# DeepEval Cache & Logs
+.deepeval/
+*.log
+
+# System & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

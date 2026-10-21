@@ -1,0 +1,16 @@
+[project]
+name = "rag-evaluation-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "deepeval>=4.3.1",
+    "dotenv>=0.9.9",
+    "langchain>=1.4.6",
+    "langchain-core>=1.6.12",
+    "langchain-google-genai>=4.4.2",
+    "langgraph>=1.2.16",
+    "pydantic>=2.14.1",
+    "pymupdf>=2.0",
+]
